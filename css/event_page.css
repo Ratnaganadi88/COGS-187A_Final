@@ -12,8 +12,13 @@
 	margin: 40px 50px;
 }
 
-.event-box a:hover{
+.event-box a:hover,
+.event-title a:hover p{
 	color:#CC3232;
+}
+
+.event-content a{
+	color:blue;
 }
 	
 
@@ -22,8 +27,8 @@
 	color: #fbb03b;
 }
 
-ul.qtr_pics li.selected p,
-ul.qtr_pics li.selected a,
+ul.qtr_pics .pic_container.selected p,
+ul.qtr_pics .pic_container.selected a,
 .pic_container.selected:hover > a .pic_title p{
     color: white;
 }

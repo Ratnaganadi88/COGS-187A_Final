@@ -29,13 +29,11 @@ h3{
 .qtr_title{
 	height: 32px;
 	padding: 10px 0;
-/* 	background-color:pink; */
 }
 .qtr_pics{
 	text-align:center;
 	float: left;
 	margin: auto 2.8%;/* 1.95%; */
-/* 	background-color:pink; */
 }
 
 .pic_container{
