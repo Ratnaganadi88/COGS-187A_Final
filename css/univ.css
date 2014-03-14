@@ -13,15 +13,16 @@ h2{
 }
 h3{
 	font-size: 24px;
-	padding: 5px 1.8%;/* 18px; */
+	padding: 5px 0;/* 18px; */
 	text-align:left;
 	-webkit-margin-before: 0;
 	-webkit-margin-after: 0;
 }
 .qtr_box{
-	width: 960px;
+	width: 930px;
 	margin: 0px auto;
 	padding: 10px 0;
+	margin: auto 15px;
 	display: block;
 	float:left;
 }
@@ -37,49 +38,48 @@ h3{
 }
 
 .pic_container{
-	width: 166px; height: 130px;
+	width: 178px; height: 130px;
 	display: inline-block;
-	margin: 15px 6px;
+	margin: 15px 10px 15px 0;
 	position:relative;
-	border-radius: 5px;
+	float:left;
+	/*border-radius: 5px;*/
 }
 
 .pic_title{ 
-	width: 166px; height: 30px;
+	width: 178px; height: 30px;
 	position: absolute;
 	z-index: 2;
 	background-color: rgba(50,50,50,0.7);
-	margin-top: 100px;
-	border-radius:5px;
+	margin-top: 93px;
+	/*border-radius:5px;*/
 	
 }
 .pic_title p{
-	color: #fbb03b;
+	color: white;
 	-webkit-margin-before: 5px;
 	-webkit-margin-after: 0;
 }
-.pic{
-	width: 166px; height: 130px;
+.pic, .pic2{
+	/*width: 166px; height: 130px;*/
 	position: absolute;
 	z-index: 1;
 }
-.pic img{
-	width: 166px; height: 130px;
+.pic img, .pic2 img{
+	width: 178px; height: 130px;
 }
 
-.pic_container:hover > a .pic_title{
-	height: 130px;
-	margin-top: 0;
+/*div#allpage .pic_container:hover > a .pic_title{
 	background-color: rgba(40,40,40,0.8);
 	box-shadow: 0 0 10px #ffffff;
 	-webkit-transition-property: background-color, box-shadow; 
 	-webkit-transition-duration: 0.6s;
-}
+}*/
 
 .pic_container:hover > a .pic_title p{
-	color: #fbb03b;
-	font-size: 18px;
-	margin: 57px auto 55px auto;
+	color: white;
+	/*font-size: 18px;*/
+	/*margin: 57px auto 55px auto;*/
 }
 
 .about_text p{

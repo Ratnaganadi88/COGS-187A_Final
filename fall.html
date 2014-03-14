@@ -11,6 +11,7 @@
     	<link type="text/css" rel="stylesheet" href="css/stylesheet.css"/>
     	<link type="text/css" rel="stylesheet" href="css/univ.css"/>
     	<link type="text/css" rel="stylesheet" href="css/event_page.css"/>
+    	<link href="css/bootstrap.min.css" rel="stylesheet">
 	</head>
 	<body>
 	  <div id="top">
@@ -45,145 +46,159 @@
 	  <div id="page_box">
 	  	<div id="page_title"> <h2> University Traditions </h2> </div>
 	  	
-	  	<div class="qtr_box">
+	  	
+	  	<div id="allpage" class="qtr_box">
 	  		<div class="qtr_title"><h3> Fall Quarter </h3> </div>
 	  		<ul class="qtr_pics" data-persist="true">
 	  		  <li class="pic_container">
 	  		  	  <a href="#event1"><div class="pic_title"> <p> Welcome Week </p> </div>
-				  <div class="pic"> <img src="img/qtr-fall1.jpg"/></div></a>
+				  <div class="pic2"> <img src="img/fall_1_1.jpg"/></div></a>
 			  </li>
 	  		  <li class="pic_container">
 	  		  	  <a href="#event2"><div class="pic_title"> <p> UnOlympics </p> </div>
-				  <div class="pic"> <img src="img/qtr-fall1.jpg"/></div></a>
+				  <div class="pic2"> <img src="img/fall_2_1.jpg"/></div></a>
 			  </li>
 			  <li class="pic_container">
-	  		  	  <a href="#event3"><div class="pic_title"> <p> Event Name </p> </div>
-				  <div class="pic"> <img src="img/qtr-fall1.jpg"/></div></a>
+	  		  	  <a href="#event3"><div class="pic_title"> <p> Fall Festival... </p> </div>
+				  <div class="pic2"> <img src="img/fall_3_2.jpg"/></div></a>
 			  </li>
 			  <li class="pic_container">
-	  		  	  <a href="#event4"><div class="pic_title"> <p> Event Name </p> </div>
-				  <div class="pic"> <img src="img/qtr-fall1.jpg"/></div></a>
+	  		  	  <a href="#event4"><div class="pic_title"> <p> Fall Feast </p> </div>
+				  <div class="pic2"> <img src="img/fall_4_1.jpg"/></div></a>
 			  </li>
 			  <li class="pic_container">
-	  		  	  <a href="#event5"><div class="pic_title"> <p> Event Name </p> </div>
-				  <div class="pic"> <img src="img/qtr-fall1.jpg"/></div></a>
+	  		  	  <a href="#event6"><div class="pic_title"> <p> Halloween... </p> </div>
+				  <div class="pic2"> <img src="img/fall_6_3.jpg"/></div></a>
 			  </li>
 	  		</ul>	  
 	  	</div>
 	  	
 		<div class = "event-box">
 		  <div id="event1">
-			<div class="event-title"> <a href="http://welcomeweek.ucsd.edu/"> <p> Welcome Week </p> </a> </div>
-			<div class="event-content">
-				<p> <b>When:</b> The week before fall quarter instruction begins </p>
-				<p> <b>Where:</b> Various locations on the La Jolla campus </p>
-				<p> <b>Who:</b> Students! Everyone is welcome! </p>
-				<p> <b>What:</b> </p>
-				<p class="event_what">
-					An action-packed week of social and educational events and annual traditions kicking off the new school year, including the Triton Power Hour pep rally and the spirited UnOlympics competition.
-				</p>
-				<p> <b>Additional Information:</b> 
-					<a href="https://students.ucsd.edu/student-life/_organizations/student-affairs/index.html"> Student Affairs </a> coordinates Welcome Week for all new and returning students.
-				</p>
+		  	<div class="event-pictxt"><img src="img/fall_1_1.jpg"/></div>
+		  	<div class="event-txt">
+			  	<div class="event-title"> <a href="http://welcomeweek.ucsd.edu/"> <p> Welcome Week </p> </a> </div>
+			  	<div class="event-content">
+					<p> <b>When:</b> The week before fall quarter instruction begins </p>
+					<p> <b>Where:</b> Various locations on the La Jolla campus </p>
+					<p> <b>Hosted by:</b> <a href="https://students.ucsd.edu/student-life/_organizations/student-affairs/index.html"> Student Affairs </a></p>
+					<p> <b>For whom:</b> All new and returning students</p>
+					<p> <b>What it is about:</b> </p>
+					<p class="event_what">
+						An action-packed week of social and educational events and annual traditions kicking off the new school year, including the Triton Power Hour pep rally and the spirited UnOlympics competition
+					</p>
+				</div>
 			</div>
 			<ul class="event-pics">
-	  		  <li class="eventpic-container"><img src="img/qtr-fall1.jpg"/></li>
-	  		  <li class="eventpic-container"><img src="img/qtr-fall1.jpg"/></li>
-	  		  <li class="eventpic-container"><img src="img/qtr-fall1.jpg"/></li>
-	  		  <li class="eventpic-container"><img src="img/qtr-fall1.jpg"/></li>
-	  		  <li class="eventpic-container"><img src="img/qtr-fall1.jpg"/></li>
+	  		  <li class="eventpic-container"><img src="img/fall_1_1.jpg"/></li>
+	  		  <li class="eventpic-container"><img src="img/fall_1_2.jpg"/></li>
+	  		  <li class="eventpic-container"><img src="img/fall_1_3.jpg"/></li>
+	  		  <li class="eventpic-container"><img src="img/fall_1_4.jpg"/></li>
+	  		  <li class="eventpic-container" id="picend"><img src="img/fall_1_4.jpg"/></li>
+	  		 
 	  		</ul>	
 		  </div>
 		  
 		  <div id="event2">
-			<div class="event-title"> <p> UnOlympics </p> </div>
-			<div class="event-content">
-				<p> <b>When:</b> During each fall's <a href="http://welcomeweek.ucsd.edu/">Welcome Week</a> activities </p>
-				<p> <b>Where:</b> RIMAC field </p>
-				<p> <b>Who:</b> students </p>
-				<p> <b>What:</b> </p>
-				<p class="event_what">
-					Students in each of the six colleges vie for the coveted Golden Shoe (and that year's bragging rights) by participating in a series of spirited events.
-				</p>	
-				<p> <b>Additional Information:</b> 
-					-
-				</p>	
+			<div class="event-pictxt"><img src="img/fall_2_1.jpg"/></div>
+			<div class="event-txt">
+				<div class="event-title"> <p> UnOlympics </p> </div>
+				<div class="event-content">
+					<p> <b>When:</b> During each fall's <a href="http://welcomeweek.ucsd.edu/">Welcome Week</a> activities </p>
+					<p> <b>Where:</b> RIMAC field </p>
+					<p> <b>Hosted by:</b> Six Colleges </p>
+					<p> <b>For whom:</b> All new and returning students </p>
+					<p> <b>What it is about:</b> </p>
+					<p class="event_what">
+						Students in each of the six colleges vie for the coveted Golden Shoe (and that year's bragging rights) by participating in a series of spirited events.
+					</p>	
+				</div>
 			</div>
 			<ul class="event-pics">
-	  		  <li class="eventpic-container"><img src="img/qtr-fall1.jpg"/></li>
-	  		  <li class="eventpic-container"><img src="img/qtr-fall1.jpg"/></li>
-	  		  <li class="eventpic-container"><img src="img/qtr-fall1.jpg"/></li>
-	  		  <li class="eventpic-container"><img src="img/qtr-fall1.jpg"/></li>
-	  		  <li class="eventpic-container"><img src="img/qtr-fall1.jpg"/></li>
+	  		  <li class="eventpic-container"><img src="img/fall_2_1.jpg"/></li>
+	  		  <li class="eventpic-container"><img src="img/fall_2_2.jpg"/></li>
+	  		  <li class="eventpic-container"><img src="img/fall_2_3.jpg"/></li>
+	  		  <li class="eventpic-container"><img src="img/fall_2_4.jpg"/></li>  
 	  		</ul>
 		  </div>
 		  
 		  <div id="event3">
-			<div class="event-title"> <p> Event Name 3 </p> </div>
-			<div class="event-content">
-				<p> <b>When:</b> DD/MM/YYYY </p>
-				<p> <b>Where:</b> on campus </p>
-				<p> <b>Who:</b> students </p>
-				<p> <b>What:</b> </p>
-				<p class="event_what">
-					This is an example text of the events. Hehehehe.
-				</p>	
-				<p> <b>Additional Information:</b> 
-					-
-				</p>
+			<div class="event-pictxt"><img src="img/fall_3_2.jpg"/></div>
+			<div class="event-txt">
+				<div class="event-title"> <p> Fall Festival on the Green</p> </div>
+				<div class="event-content">
+					<p> <b>When:</b> Friday early in fall quarter </p>
+					<p> <b>Where:</b> Library Walk </p>
+					<p> <b>Hosted by:</b> <a href="https://students.ucsd.edu/student-life/_organizations/student-involvement/index.html">Center for Student Involvement </a></p>
+					<p> <b>For whom:</b> 
+						All students
+					</p>
+					<p> <b>What it is about:</b> </p>
+					<p class="event_what">
+						A student information fair with over 100 UCSD student organizations, live entertainment, food, free stuff, and more <br>
+						<b>*A UCSD tradition since: 1983</b>
+					</p>
+				</div>	
 			</div>
 			<ul class="event-pics">
-	  		  <li class="eventpic-container"><img src="img/qtr-fall1.jpg"/></li>
-	  		  <li class="eventpic-container"><img src="img/qtr-fall1.jpg"/></li>
-	  		  <li class="eventpic-container"><img src="img/qtr-fall1.jpg"/></li>
-	  		  <li class="eventpic-container"><img src="img/qtr-fall1.jpg"/></li>
-	  		  <li class="eventpic-container"><img src="img/qtr-fall1.jpg"/></li>
+	  		  <li class="eventpic-container"><img src="img/fall_3_2.jpg"/></li>
+	  		  <li class="eventpic-container"><img src="img/fall_3_1.jpg"/></li>
+	  		  <li class="eventpic-container"><img src="img/fall_3_3.jpg"/></li>
+	  		  <li class="eventpic-container"><img src="img/fall_3_4.jpg"/></li>
+	  		  
 	  		</ul>
 		  </div>
 		  
 		  <div id="event4">
-			<div class="event-title"> <p> Event Name 4 </p> </div>
-			<div class="event-content">
-				<p> <b>When:</b> DD/MM/YYYY </p>
-				<p> <b>Where:</b> on campus </p>
-				<p> <b>Who:</b> students </p>
-				<p> <b>What:</b> </p>
-				<p class="event_what">
-					This is an example text of the events. Hehehehe.
-				</p>	
-				<p> <b>Additional Information:</b> 
-					-
-				</p>	
+			<div class="event-pictxt"><img src="img/fall_4_1.jpg"/></div>
+			<div class="event-txt">
+				<div class="event-title"> <p> Fall Feast </p> </div>
+				<div class="event-content">
+					<p> <b>When:</b> Early fall quarter </p>
+					<p> <b>Where:</b> RIMAC Arena </p>
+					<p> <b>Hosted by:</b> <a href="http://as.ucsd.edu/">Associated Students</a> </p>
+					<p> <b>For whom:</b> 
+						All undergraduate students
+					</p>
+					<p> <b>What it is about:</b> </p>
+					<p class="event_what">
+						An annual concert free to all undergraduate students with valid UCSD ID
+					</p>
+				</div>	
 			</div>
 			<ul class="event-pics">
-	  		  <li class="eventpic-container"><img src="img/qtr-fall1.jpg"/></li>
-	  		  <li class="eventpic-container"><img src="img/qtr-fall1.jpg"/></li>
-	  		  <li class="eventpic-container"><img src="img/qtr-fall1.jpg"/></li>
-	  		  <li class="eventpic-container"><img src="img/qtr-fall1.jpg"/></li>
-	  		  <li class="eventpic-container"><img src="img/qtr-fall1.jpg"/></li>
+	  		  <li class="eventpic-container"><img src="img/fall_4_1.jpg"/></li>
+	  		  <li class="eventpic-container"><img src="img/fall_4_2.jpg"/></li>
+	  		  <li class="eventpic-container"><img src="img/fall_4_3.jpg"/></li>
+	  		  <li class="eventpic-container"><img src="img/fall_4_4.jpg"/></li>
+	  		  
 	  		</ul>
 		  </div>
 		  
-		  <div id="event5">
-			<div class="event-title"> <p> Event Name 5 </p> </div>
-			<div class="event-content">
-				<p> <b>When:</b> DD/MM/YYYY </p>
-				<p> <b>Where:</b> on campus </p>
-				<p> <b>Who:</b> students </p>
-				<p> <b>What:</b> </p>
-				<p class="event_what">
-					This is an example text of the events. Hehehehe.
-				</p>	
-				<p> <b>Additional Information:</b> 
-					-
-				</p>	
+
+	  	  <div id="event6">
+			<div class="event-pictxt"><img src="img/fall_6_3.jpg"/></div>
+			<div class="event-txt">
+				<div class="event-title"> <p> Halloween Costume Contest </p> </div>
+				<div class="event-content">
+					<p> <b>When:</b> October 31 </p>
+					<p> <b>Where:</b> On stage in the Price Center plaza </p>
+					<p> <b>Hosted by:</b> UCSD Bookstore </p>
+					<p> <b>For whom:</b> 
+						Costumed students, faculty, and staff
+					</p>
+					<p> <b>What it is about:</b> </p>
+					<p class="event_what">
+						 Costumed students, faculty, and staff bewitch the crowds, competing for prizes for the funniest, scariest, most creative, and most incredibly elaborate costumes
+					</p>
+				</div>					
 			</div>
 			<ul class="event-pics">
-	  		  <li class="eventpic-container"><img src="img/qtr-fall1.jpg"/></li>
-	  		  <li class="eventpic-container"><img src="img/qtr-fall1.jpg"/></li>
-	  		  <li class="eventpic-container"><img src="img/qtr-fall1.jpg"/></li>
-	  		  <li class="eventpic-container"><img src="img/qtr-fall1.jpg"/></li>
-	  		  <li class="eventpic-container"><img src="img/qtr-fall1.jpg"/></li>
+	  		  <li class="eventpic-container"><img src="img/fall_6_3.jpg"/></li>
+	  		  <li class="eventpic-container"><img src="img/fall_6_2.jpg"/></li>
+	  		  <li class="eventpic-container"><img src="img/fall_6_1.jpg"/></li>
+	  		  <li class="eventpic-container"><img src="img/fall_6_4.jpg"/></li>
+	  		 
 	  		</ul>
 		  </div>
 	  	</div>
@@ -206,6 +221,9 @@
 			<p> &copy 2014 Regents of the University of California</p8>
 		</div>
 	  </footer>
-	  
+	   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
 	</body>
 </html>

@@ -11,6 +11,12 @@
     	<link type="text/css" rel="stylesheet" href="css/stylesheet.css"/>
     	<link type="text/css" rel="stylesheet" href="css/univ.css"/>
     	<link type="text/css" rel="stylesheet" href="css/event_page.css"/>
+    	<link type="text/css" rel="stylesheet" href="css/home.css"/>
+    	<!-- Bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<script src="lightbox/js/jquery-1.10.2.min.js"></script>
+		<script src="lightbox/js/lightbox-2.6.min.js"></script>
+		<link href="lightbox/css/lightbox.css" rel="stylesheet" />
 	</head>
 	<body>
 	  <div id="top">
@@ -44,8 +50,88 @@
 	  </div>
 	  
 	  <div id="home_box">
-	  	<div id="page_title"> <h2> Upcoming Traditions </h2> </div>
-	  	<div id="slider"></div>
+	  	<div id="page_title"> <h2> Hello </h2> </div>
+	  	<div id="home-logo"><img src="img/home-logo.jpeg"/></div>
+	  	<div id="home-subnav" data-persist="true">
+	  		  <a href="about.html"> <div id="home-about"> <h2> About </h2></div></a>
+	  		  <div class="home-trad" id="home-trad1">
+		  		  <div class="home-subtrad"><a href="univ.html"><h2> University <br> Tradition </h2> </a></div>
+		  		  <div class="home-subtradnav" id="home-subtradnav1">
+		  		  	  	<ul>
+		  		  	  		<li><a href="fall.html"> Fall </a></li>
+					  		<li><a href="winter.html"> Winter </a></li>
+							<li><a href="spring.html"> Spring </a></li>
+							<li><a href="quarter.html"> Quarterly </a></li>
+						</ul>
+				  </div>
+			  </div>
+	  		  <div class="home-trad" id="home-trad2">
+		  		  <div class="home-subtrad"><a href="college.html"><h2> College <br> Tradition </h2> </a></div>
+		  		  <div class="home-subtradnav" id="home-subtradnav2">
+		  		  	  	<ul>
+		  		  	  		<li><a href="revelle.html"> Revelle </a></li>
+					  		<li><a href="muir.html"> Muir </a></li>
+							<li><a href="marshall.html"> Marshall </a></li>
+							<li><a href="erc.html"> Roosevelt </a></li>
+							<li><a href="warren.html"> Warren </a></li>
+							<li><a href="sixth.html"> Sixth </a></li>
+						</ul>
+				  </div>
+			  </div>
+	  	</div>
+	  	<div class="homeqtr_pics" data-persist="true">
+	  		  <div id="home_subtitle"> <h2> Upcoming </h2><h2> Traditions </h2></div>
+	  		  <div class="homepic_ctnr" id="homepic_ctnr1">
+	  		  	  <a href="#">
+	  		  	  	<div class="homepic_title" id="homepic_title1"> 
+	  		  	  		<p> <b>TRITON 5K!</b> <span class="homepic_date"> (April 2014) </span> </p> 
+	  		  	  	</div>
+	  		  	  	<div class = "homepic" id="homepic1"> <img src="img/Spring_4_1.jpg"/></div>
+	  		  	  </a>
+				  
+			  </div>
+			  <div class="homepic_ctnr" id="homepic_ctnr3">
+	  		  	  <a href="#">
+	  		  	  	<div class="homepic_title" id="homepic_title3"> 
+	  		  	  		<p> Cultural Celebration <span class="homepic_date"> (April 5th, 2014) </span> </p> 
+	  		  	  	</div>
+	  		  	  	<div class = "homepic" id="homepic3"> <img src="img/home3.jpg"/></div>
+	  		  	  </a>
+			  </div>
+			  <div class="homepic_ctnr" id="homepic_ctnr5">
+	  		  	  <a href="#">
+	  		  	  	<div class="homepic_title" id="homepic_title5"> 
+	  		  	  		<p> Chocolate Festival <span class="homepic_date"> (April 2014) </span> </p> 
+	  		  	  	</div>
+	  		  	  	<div class = "homepic" id="homepic5"> <img src="img/home5.jpeg"/></div>
+	  		  	  </a>				  
+			  </div>
+			  <div class="homepic_ctnr" id="homepic_ctnr6">
+	  		  	  <a href="#">
+	  		  	  	<div class="homepic_title" id="homepic_title6"> 
+	  		  	  		<p> UCSD Cares Week <span class="homepic_date"> (April 2014) </span> </p> 
+	  		  	  	</div>
+	  		  	  	<div class = "homepic" id="homepic6"> <img src="img/spring_1_1.jpg"/></div>
+	  		  	  </a>				  
+			  </div>
+			  <div class="homepic_ctnr" id="homepic_ctnr4">
+	  		  	  <a href="#">
+	  		  	  	<div class="homepic_title" id="homepic_title4"> 
+	  		  	  		<p> Muir Musical Ensembles <span class="homepic_date"> (April 10-12, 2014) </span> </p> 
+	  		  	  	</div>
+	  		  	  	<div class = "homepic" id="homepic4"> <img src="img/home4.jpg"/></div>
+	  		  	  </a>				  
+			  </div>			  
+			  <div class="homepic_ctnr" id="homepic_ctnr2">
+	  		  	  <a href="#">
+	  		  	  	<div class="homepic_title" id="homepic_title2"> 
+	  		  	  		<p> Sun God <span class="homepic_date"> (May 16, 2014) </span> </p> 
+	  		  	  	</div>
+	  		  	  	<div class = "homepic" id="homepic2"> <img src="img/home2.jpg"/></div>
+	  		  	  </a>
+			  </div>			  
+	  		</div>
+
 	  </div>
 	  
 	  <footer>
@@ -66,5 +152,9 @@
 			<p> &copy 2014 Regents of the University of California</p8>
 		</div>
 	  </footer>
+	  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
 	</body>
 </html>
